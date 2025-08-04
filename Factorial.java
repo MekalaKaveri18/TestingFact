@@ -1,7 +1,7 @@
 public class Factorial{
   public static long compute(int n){
     if(n<0) throw new IllegalArgument Exception("Negative number not allowed");
-    long res=0;
+    long res=1;
     for(int i=2;i<=n;i++){
       res*=i;
     }
