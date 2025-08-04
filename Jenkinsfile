@@ -10,7 +10,6 @@ pipeline {
           steps{
           bat 'java TestFact.java'
         }
-        
       }
       stage('Run'){
         steps{
