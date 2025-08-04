@@ -1,4 +1,4 @@
-class Factorial{
+public class Factorial{
   public static long compute(int n){
     if(n<0) throw new IllegalArgument Exception("Negative number not allowed");
     long res=1;
