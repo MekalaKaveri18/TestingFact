@@ -3,8 +3,7 @@ pipeline {
     stages {
       stage("compile"){
         steps{
-          echo 'javac Factorial.java'
-          echo "build"
+          bat 'javac Factorial.java'
     }
       }
   }
