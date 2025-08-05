@@ -1,11 +1,11 @@
 public class Factorial{
   public static long compute(int n){
     if(n<0) throw new IllegalArgument Exception("Negative number not allowed");
-    long res=1;
+    long result=1;
     for(int i=2;i<=n;i++){
-      res*=i;
+      result*=i;
     }
-    return res;
+    return result;
   }
   public static void main(String args[]){
   int n=5;
